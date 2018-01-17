@@ -8,7 +8,7 @@ B = "llo";
 C = A - B;
 ```
 
-- [ ] `NaN`
+- [X] `NaN`
 - [ ] `false`
 - [ ] `He`
 - [ ] `Hello`
@@ -24,7 +24,7 @@ C = (A === B)
 ```
 
 - [ ] `1`
-- [ ] `false`
+- [x] `false`
 - [ ] `true`
 
 ## Javascript datetime
@@ -33,20 +33,20 @@ You want to create a variable called newDate that contains the date March 1 of t
 - [ ] `var newDate= new Date(today.getCurrYear(), 2, 1)`
 - [ ] `var newDate= new Date(today.getCurrYear(), 3, 1)`
 - [ ] `var newDate= new Date(today.getFullYear(), 3, 2)`
-- [ ] `var newDate= new Date(today.getFullYear(), 2, 1)`
+- [x] `var newDate= new Date(today.getFullYear(), 2, 1)`
 
 ## Javascript invalid methods
 Which of the following is an **invalid** method of `Date` object?
 
 - [ ] `parse()`
 - [ ] `setTime()`
-- [ ] `setDay()`
+- [x] `setDay()`
 - [ ] `valueOf()`
 
 ## Javascript basics
 Which of the following is not a valid JavaScript operator?
 
 - [ ] `===`
-- [ ] `<<<`
+- [x] `<<<`
 - [ ] `^`
 - [ ] `|`
