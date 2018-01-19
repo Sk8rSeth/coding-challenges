@@ -35,10 +35,23 @@ class OffsetEncodingAlgorithm implements EncodingAlgorithm
      */
     public function encode($text)
     {
-        /**
-         * @todo: Implement it
-         */
+        //returns if offset by 0
+        if ($this->offset === 0) {
+         return $text;
+        }
+        $output_string = '';
 
-        return '';
+        for ($i = 0; $i < strlen($text); $i++) {
+          // ord converts string to acii equivilant integer
+          $chars = ord($text[$i]);
+
+          //chr() converts ord back to string
+          $encoded = chr($chars + $this->offset);
+
+          // append encoded charactes
+          $output_string .= $encoded;
+        }
+
+        return $output_string;
     }
 }
